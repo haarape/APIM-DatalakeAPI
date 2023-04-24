@@ -9,5 +9,5 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     today = date.today()
 
-    return func.HttpResponse(today)
+    return func.HttpResponse(today.strftime("%d.%m.%Y"), status_code=200)
 
