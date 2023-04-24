@@ -30,6 +30,26 @@
                     }
                 }
             }
+        },
+        "/GetArray": {
+            "post": {
+                "summary": "GetArray",
+                "operationId": "post-getarray",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            },
+            "get": {
+                "summary": "GetArray",
+                "operationId": "get-getarray",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
         }
     },
     "components": {
